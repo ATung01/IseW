@@ -1,9 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2cv2vxbgaj7f"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dhutdktu0iehb"]
 
-[ext_resource type="Texture2D" uid="uid://b42u6g6xqco1y" path="res://0x72_DungeonTilesetII_v1.6/0x72_DungeonTilesetII_v1.6.png" id="1_okmo8"]
+[ext_resource type="Texture2D" uid="uid://b42u6g6xqco1y" path="res://0x72_DungeonTilesetII_v1.6/0x72_DungeonTilesetII_v1.6.png" id="1_tp2qn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pojc1"]
-texture = ExtResource("1_okmo8")
+texture = ExtResource("1_tp2qn")
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
@@ -635,9 +635,5 @@ texture = ExtResource("1_okmo8")
 15:28/0 = 0
 16:28/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_ei3du"]
+[resource]
 sources/0 = SubResource("TileSetAtlasSource_pojc1")
-
-[node name="TileMap" type="TileMap"]
-tile_set = SubResource("TileSet_ei3du")
-format = 2
